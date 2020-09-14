@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-local": "DB_URL=postgres://hdwonbjcarnung:d6cff76dadd3537dd3e7d5c4a899121fee1666915fcc9df2942de479837b9e3b@ec2-46-137-124-19.eu-west-1.compute.amazonaws.com:5432/djo508p922cf9 node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-proxy-middleware": "^1.0.5",
+    "knex": "^0.21.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3"
+  }
+}
